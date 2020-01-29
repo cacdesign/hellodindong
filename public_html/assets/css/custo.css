@@ -1,0 +1,163 @@
+.badge {
+  padding: 5px;
+  font-size: 0.8em;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.badge-success {
+  background-color: #54AF5D;
+}
+
+
+.logo img{
+ width:100px;
+ margin-bottom: 10px;
+}
+
+.pain{
+  font-size :2em !important;
+}
+
+.modal-content{
+  min-height: 90vh;
+}
+
+.form-group{
+  margin-top: 20px;
+}
+
+.legal-references{
+  line-height: 24px;
+  list-style: none;
+}
+
+.job-radio{
+  border: solid 1px #2771ba;
+  padding: 0;
+  height:50px;
+}
+
+.job-radio:first-child{
+  /* border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; */
+  /* border-right: none; */
+}
+
+.job-radio:last-child{
+  /* border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; */
+  /* border-left: none; */
+
+}
+
+.job-radio label{
+  width: 100%;
+  height:100%;
+  cursor: pointer;
+  text-align: center;
+  margin:auto;
+  font-size: 0.9em;
+  color: #2771ba;
+  vertical-align: middle;
+  line-height:50px;
+
+}
+
+.job-radio input{
+  /* display:none; */
+}
+
+.job-radio .active{
+  background-color: #2771ba;
+  color: #fff;
+}
+
+input {
+  border: solid 1px #2771ba;
+}
+
+.bullet-pricing-image{
+  width: 40px;
+  margin-right: 20px;
+}
+
+.list-pricing{
+  line-height : 60px;
+  font-size: 1.2em;
+}
+
+.feature {
+  font-size: 1.1em;
+}
+
+.error-input{
+  border: solid 1px #ff2000;
+}
+
+.area-label{
+  border: solid 1px #e5e5e5;
+  color: #666666;
+  height: 30px;
+  line-height: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding : 5px 10px;
+  cursor: pointer;
+}
+
+.area-label-active{
+  border: solid 1px #2771BA;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #2771BA;
+  height: 30px;
+  line-height: 20px;
+  padding : 5px 10px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #2771BA;
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+.form-title{
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+
+.city-label{
+  color: black;
+  cursor: pointer;
+  padding : 10px;
+  height: 100px;
+  width: 100px;
+  border: solid 1px #000;
+  line-height: 20px;
+}
+
+.city-label span{
+  margin: 10px 0 20px 0
+}
+
+.city-label img{
+  margin-top: -80px;
+  max-width: 80px;
+}
+
+.city-active{
+  color : #f96332;
+  font-weight: 600;
+  border: solid 2px #f96332;
+
+}
